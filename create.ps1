@@ -33,7 +33,7 @@ switch ($($config.IsDebug)) {
 }
 
 # Set to true if accounts in the target system must be updated
-$updatePerson = $true
+$updatePerson = $false
 
 #region functions
 function Initialize-CumlaudePowerShellSession {
